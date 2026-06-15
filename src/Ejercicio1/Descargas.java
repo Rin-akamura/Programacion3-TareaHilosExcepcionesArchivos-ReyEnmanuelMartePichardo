@@ -11,7 +11,7 @@ public class Descargas extends Thread{
     public void run(){
         System.out.println("Descargando " + NombreArchivo + "...");
 
-        for(int i = 0; i < 100; i += 5){
+        for(int i = 0; i <= 100; i += 5){
             System.out.println(NombreArchivo + " " + i + "%");
 
             try{
