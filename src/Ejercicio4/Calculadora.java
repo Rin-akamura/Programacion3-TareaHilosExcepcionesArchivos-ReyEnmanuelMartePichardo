@@ -14,7 +14,7 @@ public class Calculadora {
         int cantidad = sc.nextInt();
         sc.nextLine();
 
-        for(int i = 0; i <= cantidad; i++){
+        for(int i = 0; i < cantidad; i++){
             System.out.println("Ingrese numero #" + (i + 1));
             int numero = sc.nextInt();
             sc.nextLine();
@@ -35,7 +35,7 @@ public class Calculadora {
         int cantidad = sc.nextInt();
         sc.nextLine();
 
-        for(int i = 0; i <= cantidad; i++){
+        for(int i = 0; i < cantidad; i++){
             System.out.println("Ingrese el numero que desea restar");
             int numero = sc.nextInt();
             sc.nextLine();
