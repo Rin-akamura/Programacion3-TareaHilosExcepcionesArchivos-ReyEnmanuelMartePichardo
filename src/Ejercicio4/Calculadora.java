@@ -69,6 +69,7 @@ public class Calculadora {
             int producto = numero1 * numero2;
 
             System.out.print("= " + producto);
+            System.out.println();
 
         }catch(InputMismatchException e){
             System.out.println("Error: No se puede realizar la operacion. Ingrese un numero valido");
@@ -83,14 +84,14 @@ public class Calculadora {
             int numero1 = sc.nextInt();
             sc.nextLine();
 
-            System.out.print(" * ");
+            System.out.print(" / ");
 
             int numero2 = sc.nextInt();
             sc.nextLine();
 
-            int producto = numero1 * numero2;
+            double residuo = numero1 / numero2;
 
-            System.out.print("= " + producto);
+            System.out.println("= " + residuo);;
 
         }catch(InputMismatchException e){
             System.out.println("Error: No se puede realizar la operacion. Ingrese un numero valido");
