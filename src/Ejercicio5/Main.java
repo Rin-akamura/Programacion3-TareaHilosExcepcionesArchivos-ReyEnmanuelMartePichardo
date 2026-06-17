@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main (String[] args){
+        Sistema sistema = new Sistema();
         int op = 0;
         Scanner sc = new Scanner(System.in);
         do{
@@ -22,10 +23,13 @@ public class Main {
 
             switch(op) {
                 case 1:
+                    sistema.RegistrarActividades();
                     break;
                 case 2:
+                    sistema.MostrarActividades();
                     break;
                 case 3:
+                    System.out.println("Saliendo del Programa...");
                     break;
             }
         }while(op != 3);
